@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <ul>
+                <li style="float:left" class="left">Business Name</li>
+                <li class="right">Contact Us</li>
+                <li class="right">Our Services</li>
+                <li class="right">About Us</li>
+                <li class="right" onClick="scrollElement('header')" >Home</li>
+            </ul>
+        </div>
+    </header>
+    <section class="section2">
+        <div class="landingpage"> 
+            <div class="main">
+                <p class="paragraph">
+                    AccioJob is a 6-month online bootcamp training students for Software Dev roles at Top tech companies. We are a YC backed startup led by IIT Delhi alumni.
+                    Our flagship program is a 100% Job Guarantee program with min. 5-40 LPA (INR) salary for Indian students. Student has to pay ONLY after getting employed.
+                    We cover Data Structures and Algorithms in Java, Full Stack Web Dev in MERN Stack (MongoDB, Express, React.js, Node.js) across 6 months. The course is 100% online. You'll have daily LIVE problem solving and lecture sessions with top notch instructors working at Top product based companies like Amazon, Microsoft, Google. Holistic placement support is provided with best in class opportunities at top tech companies and preparation with unlimited mock interviews, mentorship sessions, soft skills sessions, resume and project building sessions.
+                    At AccioJob, we personalise each student's learning journey and help them get the promised employment outcomes. We have the most reasonable fees after placement, lowest payback period and one of the highest placement rates in the industry.
+                    We have 1000+ students under training and have placed students at an average salary of INR 8.3LPA. Our students now work at companies like Amazon, Walmart, Paytm, Visa, Tokopedia, Phenom, ThoughtWorks, Gainsight and 120 more.                    
+                </p>
+            </div>
+            
+            <img class="image" src="https://i.ytimg.com/vi/1HDT0pfIT0I/maxresdefault.jpg" alt="image">
+        </div>
+    </section>
+
+    <section class="section-3">
+        <div class="about-us">
+            <div class="album">
+                <img src="https://cdn.pixabay.com/photo/2013/03/02/02/41/alley-89197__340.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h1 class=>ABOUT US</h1>
+                <p>
+                    AccioJob offers a wide range of excellent courses to choose from. Part-time courses include Full Stack Web Development. Finally, for those wishing to study remotely, AccioJob online courses include Full Stack Web Development.
+                    No matter which course you choose, the AccioJob curriculum has been crafted and tested to ensure you leave the program with the skills you need to launch a rewarding new career.
+                    How much does AccioJob cost? As for AccioJob tuition, all AccioJob courses cost $1,700.. But the cost of AccioJob courses shouldn’t be the only thing you consider. There are a variety of financing options available to help you pay for AccioJob's cost.
+                    100% Job Guarantee program with min. 5-40 LPA (INR) salary for Indian students. Student has to pay ONLY after getting employed. We cover Data Structures and Algorithms in Java, Full Stack Web Dev in MERN Stack (MongoDB, Express, React.js, Node.js) across 6 months. The course is 100% online. You'll have daily LIVE problem solving and lecture sessions with top notch instructors working at Top product based companies like Amazon, Microsoft, Google. Holistic placement support is provided with best in class opportunities at top tech companies and preparation with mock interviews, mentorship sessions, soft skills sessions, resume and project building sessions.
+                    AccioJob has over 200 students and graduates as of 2022. This number will only continue to grow as more and more students take advantage of the courses offered here.
+                    At AccioJob, we personalise each student's learning journey and help them get the promised employment outcomes. We have the most reasonable fees after placement.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+            <h1 class="margin">OUR SERVICES</h1>
+            <div class="services">
+                <div class="service1">
+                    <!-- <span>Service 1</span> -->
+                        <p class="box1">
+                            <span style="text-align: left; font-size: 30px;">Service 1</span> <br><br>
+                            100% Job Guarantee program with min. 5-40 LPA (INR) salary for Indian students. Student has to pay ONLY after getting employed. We cover Data Structures and Algorithms in Java, Full Stack Web Dev in MERN Stack (MongoDB, Express, React.js, Node.js) across 6 months. The course is 100% online
+                        </p>
+                </div>
+
+                <div class="service1">
+                    <!-- <span class="span1">Service 1</span> -->
+                        <p class="box1">
+                            <span style="text-align: left; font-size: 30px;">Service 2</span> <br><br>
+                            100% Job Guarantee program with min. 5-40 LPA (INR) salary for Indian students. Student has to pay ONLY after getting employed. We cover Data Structures and Algorithms in Java, Full Stack Web Dev in MERN Stack (MongoDB, Express, React.js, Node.js) across 6 months. The course is 100% online
+                        </p>
+                </div>
+
+                <div class="service1">
+                    <!-- <span class="span2">Service 2</span> -->
+                        <p class="box1">
+                            <span style="text-align: left; font-size: 30px;">Service 3</span> <br><br>
+                            At AccioJob, we personalise each student's learning journey and help them get the promised employment outcomes. We have the most reasonable fees after placement, lowest payback period and one of the highest placement rates in the industry We cover Data Structures and Algorithms in Java, Full Stack Web Dev in MERN Stack.
+
+                        </p>
+                </div>
+            </div>  
+        </section>
+
+        <form class="form" name="form" onsubmit="validateForm" action="https://formspree.io/f/moqzqaeo" method="POST">
+            <h1 class="contact-us">CONTACT US</h1>
+            <input type="text" placeholder="First Name" name="firstName" id="firstname"><br><br>
+            <input type="text" placeholder="Last Name"><br><br>
+            <input type="email" placeholder="Email Address"><br><br>
+            <input type="text" placeholder="Reason For Contacting"><br><br>
+            <button onclick="onSubmit()" id="submitForm">Submit</button>
+        </form>
+</body>
+</html>
